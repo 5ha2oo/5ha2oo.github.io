@@ -1,0 +1,52 @@
+/*main color: #db1414*/
+/*secondary color: #c30202 */
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.row-body {
+  margin-top: 80px;s
+}
+.row.carousel-holder {
+  margin-bottom: 20px;
+}
+a {
+  color: #db1414;
+}
+a:hover, a:focus {
+  color: #c30202;
+}
+.navbar {
+  background-color: #232323;
+  border-radius:0;
+}
+.navbar-toggle .icon-bar {
+  background:white;
+}
+
+.navbar-brand {
+    font-size:20px;
+    font-weight:600;
+}
+
+.navbar a {
+  color:white;
+}
+.nav>li>a:hover, .nav>li>a:focus {
+  background: #c30202;
+  color:white;
+
+}
+
+.nav .open>a, .nav .open>a:hover, .nav .open>a:focus {
+  background-color: #c30202;
+  color:white;
+
+  border-color: black;
+}
+
+
+.nav-pills>li.active>a, .nav-pills>li.active>a:hover, .nav-pills>li.active>a:focus {
+  background-color:#db1414;
+  color:white;
+}
